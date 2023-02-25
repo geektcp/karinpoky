@@ -19,11 +19,15 @@ policy:  contain all the privilege,for example : select,update,delete table or f
 
 ### describe
 ```
-Many OLAP system for example hive, or new database for exampl HBase, ArangoDB,TigerDB, the have no complete permission system.
+Many OLAP system for example hive, 
+or new database for exampl HBase, ArangoDB,TigerDB, 
+they have no complete permission system.
 
-We can not restrict the permission of any user when we use Hive sql , Graph sql ,or other sql .
+We can not restrict the permission of any user when we use theses system.
+for example use Hive sql,Graph sql,or other sql .
 
 but if u use kanrinpoky,u can restrict the the permission of any user. 
+
 kanrinpoky support:
 Hive
 Mysql
