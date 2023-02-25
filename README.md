@@ -14,10 +14,12 @@ oracle
 
 ```
 
-### architect
-![architect](https://github.com/geektcp/kanrinpoky/blob/main/architect-kanrinpoky.png)
+### system architect
+![architect](https://github.com/geektcp/kanrinpoky/blob/main/doc/ArchitectOfKanrinpoky.png)
 
 
+### inner architect
+![inner architect](https://github.com/geektcp/kanrinpoky/blob/main/doc/ArchitectOfKanrinpoky.png)
 
 
 
