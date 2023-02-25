@@ -1,17 +1,17 @@
-kanrinpoky
+karinpoky
 ==========
-kanrinpoky is a sql permission parser system.
+karinpoky is a sql permission parser system.
 
-![system architecture](https://github.com/geektcp/kanrinpoky/blob/main/doc/Architect.png)
+![system architecture](https://github.com/geektcp/karinpoky/blob/main/doc/Architect.png)
 ```
-kanrinpoky use plug-in architecture.
+karinpoky use plug-in architecture.
 It is safely and reliable.
 ```
 
-![inner architecture](https://github.com/geektcp/kanrinpoky/blob/main/doc/InnerArchitect.png)
+![inner architecture](https://github.com/geektcp/karinpoky/blob/main/doc/InnerArchitect.png)
 ```
-kanrinpoky-service: provide all the api which use to add or del or modify policy
-kanrinpoky-parser:  parse the sql(Hive sql, Mysql sql, TiDB sql, ArangoDB sql and others)
+karinpoky-service: provide all the api which use to add or del or modify policy
+karinpoky-parser:  parse the sql(Hive sql, Mysql sql, TiDB sql, ArangoDB sql and others)
 
 relational database: store all the policy
 policy:  contain all the privilege,for example : select,update,delete table or field
@@ -26,9 +26,9 @@ they have no complete permission system.
 We can not restrict the permission of any user when we use theses system.
 for example use Hive sql,Graph sql,or other sql .
 
-but if u use kanrinpoky,u can restrict the the permission of any user. 
+but if u use karinpoky,u can restrict the the permission of any user. 
 
-kanrinpoky support:
+karinpoky support:
 Hive
 Mysql
 TiDB
@@ -36,7 +36,7 @@ Sqlite
 ArangoDB
 
 Thanks to our plug-in architecture, we can support any database.
-In the future, kanrinpoky will support Oracle, Sqlserver, mongoDB.
+In the future, karinpoky will support Oracle, Sqlserver, mongoDB.
 ```
 
 
@@ -52,7 +52,7 @@ public class Example {
     public static void main(String[] args) throws Exception {
         String user = "Yanni";
         String sql = "SELECT user_name, age FROM user";
-        Client client = KanrinpokyClient.build();
+        Client client = KarinpokyClient.build();
         boolean isAuthorized = client.checkPermission(user, sql);
         if(!isAuthorized){
             throw new RuntimeException("the user have no permission");

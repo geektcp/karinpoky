@@ -1,4 +1,4 @@
-package com.geektcp.kanrinpoky.client;
+package com.geektcp.karinpoky.client;
 
 public interface Client {
 

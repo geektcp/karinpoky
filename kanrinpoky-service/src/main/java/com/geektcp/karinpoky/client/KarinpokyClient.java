@@ -1,6 +1,6 @@
-package com.geektcp.kanrinpoky.client;
+package com.geektcp.karinpoky.client;
 
-public class KanrinpokyClient implements Client{
+public class KarinpokyClient implements Client{
 
     @Override
     public boolean checkPermission(String user, String sql) {
@@ -8,7 +8,7 @@ public class KanrinpokyClient implements Client{
     }
 
     public static Client build() {
-        return new KanrinpokyClient();
+        return new KarinpokyClient();
     }
 }
 

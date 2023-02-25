@@ -1,7 +1,7 @@
-package com.geektcp.kanrinpoky;
+package com.geektcp.karinpoky;
 
-import com.geektcp.kanrinpoky.client.Client;
-import com.geektcp.kanrinpoky.client.KanrinpokyClient;
+import com.geektcp.karinpoky.client.Client;
+import com.geektcp.karinpoky.client.KarinpokyClient;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -17,7 +17,7 @@ public class Example {
     public static void main(String[] args) throws Exception {
         String sql = "SELECT user_name, age FROM user";
 
-        Client client = KanrinpokyClient.build();
+        Client client = KarinpokyClient.build();
         String user = "Yanni";
         boolean isAuthorized = client.checkPermission(user, sql);
         if(!isAuthorized){
