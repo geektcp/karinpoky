@@ -1,10 +1,16 @@
 # kanrinpoky
 ==========
+kanrinpoky is a sql permission parser system.
 
 ### describe
 ```
-kanrinpoky is a sql permisission parser system.
-
+support:
+hive
+mysql
+tidb
+sqlite
+sqlserver
+oracle
 
 ```
 
