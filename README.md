@@ -19,7 +19,7 @@ oracle
 
 
 ### inner architect
-![inner architect](https://github.com/geektcp/kanrinpoky/blob/main/doc/ArchitectOfKanrinpoky.png)
+![inner architect](https://github.com/geektcp/kanrinpoky/blob/main/doc/InnerArchitectOfKanrinpoky.png)
 
 
 
