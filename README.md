@@ -2,13 +2,13 @@ kanrinpoky
 ==========
 kanrinpoky is a sql permission parser system.
 
-![system architecture](https://github.com/geektcp/kanrinpoky/blob/main/doc/ArchitectOfKanrinpoky.png)
+![system architecture](https://github.com/geektcp/kanrinpoky/blob/main/doc/Architect.png)
 ```
 kanrinpoky use plug-in architecture.
 It is safely and reliable.
 ```
 
-![inner architecture](https://github.com/geektcp/kanrinpoky/blob/main/doc/InnerArchitectOfKanrinpoky.png)
+![inner architecture](https://github.com/geektcp/kanrinpoky/blob/main/doc/InnerArchitect.png)
 ```
 kanrinpoky-service: provide all the api which use to add or del or modify policy
 kanrinpoky-parser:  parse the sql(Hive sql, Mysql sql, TiDB sql, ArangoDB sql and others)
