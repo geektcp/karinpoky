@@ -19,7 +19,7 @@ policy:  contain all the privilege,for example : select,update,delete table or f
 
 ### describe
 ```
-Many OLAP for example hive,  or new database for exampl ArangoDB,TigerDB, the have no complete permission system.
+Many OLAP system for example hive, or new database for exampl HBase, ArangoDB,TigerDB, the have no complete permission system.
 
 We can not restrict the permission of any user when we use Hive sql , Graph sql ,or other sql .
 
