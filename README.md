@@ -1,4 +1,4 @@
-# kanrinpoky
+kanrinpoky
 ==========
 kanrinpoky is a sql permission parser system.
 
