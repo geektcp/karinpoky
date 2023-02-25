@@ -6,15 +6,16 @@ kanrinpoky is a sql permission parser system.
 ```
 kanrinpoky use embedded architecture.
 It is safely and reliable.
-
 ```
 
 ![inner architecture](https://github.com/geektcp/kanrinpoky/blob/main/doc/InnerArchitectOfKanrinpoky.png)
+```
 kanrinpoky-service: provide all the api which use to add or del or modify policy
 kanrinpoky-parser:  parse the sql(Hive sql, Mysql sql, TiDB sql, ArangoDB sql and others)
 
 relational database: store all the policy
 policy:  contain all the privilege,for example : select,update,delete table or field
+```
 
 ### describe
 ```
