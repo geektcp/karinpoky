@@ -4,7 +4,7 @@ kanrinpoky is a sql permission parser system.
 
 ![system architecture](https://github.com/geektcp/kanrinpoky/blob/main/doc/ArchitectOfKanrinpoky.png)
 ```
-kanrinpoky use embedded architecture.
+kanrinpoky use plug-in architecture.
 It is safely and reliable.
 ```
 
@@ -35,7 +35,8 @@ TiDB
 Sqlite
 ArangoDB
 
-
+Thanks to our plug-in architecture, we can support any database.
+In the future, kanrinpoky will support Oracle, Sqlserver, mongoDB.
 ```
 
 
