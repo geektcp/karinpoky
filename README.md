@@ -1,6 +1,6 @@
-karinpoky
+Karinpoky
 ==========
-karinpoky is a sql permission parser system.
+Karinpoky is a storage system instruct analyse middleware.
 
 [Web site](http://kr.okfar.cn/)
 
