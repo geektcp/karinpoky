@@ -5,7 +5,6 @@ Karinpoky is a storage system instruct analyse middleware.
 <a href="http://karinpoky.com" target="_blank">Web site<a/>
 <br/>
 
-![system architecture](https://github.com/geektcp/karinpoky/blob/main/doc/architecture_karinpoky.png)
 ```
 karinpoky use plug-in architecture.
 It is safely and reliable.
