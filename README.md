@@ -2,7 +2,8 @@ Karinpoky
 ==========
 Karinpoky is a storage system instruct analyse middleware.
 
-[Web site](http://kr.okfar.cn/)
+<a href="http://karinpoky.com" target="_blank">Web site<a/>
+<br/>
 
 ![system architecture](https://github.com/geektcp/karinpoky/blob/main/doc/architecture_karinpoky.png)
 ```
@@ -10,7 +11,6 @@ karinpoky use plug-in architecture.
 It is safely and reliable.
 ```
 
-![inner architecture](https://github.com/geektcp/karinpoky/blob/main/doc/inner_architecture.png)
 ```
 karinpoky-service: provide all the api which use to add or del or modify policy
 karinpoky-parser:  parse the sql(Hive sql, Mysql sql, TiDB sql, ArangoDB sql and others)
