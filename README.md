@@ -2,7 +2,9 @@ Karinpoky
 ==========
 Karinpoky is a storage system instruct analyse middleware.
 
-<a href="http://karinpoky.com" target="_blank">Web site<a/>
+<a href="http://karinpoky.com" target='_blank'>Web site<a/>
+<br/>
+<a href="https://vault.centos.org/6.5/isos/x86_64/" target='_blank'>CentOS 6.5 下载地址</a>
 <br/>
 
 ```
