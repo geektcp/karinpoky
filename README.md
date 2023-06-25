@@ -2,16 +2,9 @@ Karinpoky
 ==========
 Karinpoky is a storage system instruct analyse middleware.
 
-<a href="" target='_blank'><a/>
+<a href="http://karinpoky.com" target='_blank'>Web Site<a/>
 <br/>
-[Web Site](http://karinpoky.com){target="_blank"}
 
-<h1>11ty-2301</h1>
-<p>Here's a link to <a href=http://karinpoky.com" target="_blank">Google</a></p>
-```
-karinpoky use plug-in architecture.
-It is safely and reliable.
-```
 
 ```
 karinpoky-service: provide all the api which use to add or del or modify policy
