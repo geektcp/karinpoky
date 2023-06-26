@@ -1,6 +1,8 @@
 package com.geektcp.karinpoky.controller.policy;
 
 import com.geektcp.common.spring.model.dto.ResponseDTO;
+import com.geektcp.karinpoky.model.policy.InstructPolicyResult;
+import com.geektcp.karinpoky.model.policy.InstructPolicySet;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -19,8 +21,8 @@ public class PolicyController {
 
     @GetMapping(value = "/add")
     @ResponseBody
-    @ApiOperation(value = "insert policy")
-    public ResponseDTO<Object> insert() {
+    @ApiOperation(value = "add policy")
+    public ResponseDTO<InstructPolicyResult> insert(InstructPolicySet instructPolicySet) {
 
         return ResponseDTO.success();
     }
@@ -28,8 +30,8 @@ public class PolicyController {
 
     @GetMapping(value = "/del")
     @ResponseBody
-    @ApiOperation(value = "delete policy")
-    public ResponseDTO<Object> delete() {
+    @ApiOperation(value = "del policy")
+    public ResponseDTO<InstructPolicyResult> delete() {
 
         return ResponseDTO.success();
     }
@@ -39,7 +41,7 @@ public class PolicyController {
     @GetMapping(value = "/update")
     @ResponseBody
     @ApiOperation(value = "update policy")
-    public ResponseDTO<Object> update() {
+    public ResponseDTO<InstructPolicyResult> update() {
 
         return ResponseDTO.success();
     }
@@ -49,7 +51,7 @@ public class PolicyController {
     @GetMapping(value = "/select")
     @ResponseBody
     @ApiOperation(value = "select policy")
-    public ResponseDTO<Object> select() {
+    public ResponseDTO<InstructPolicyResult> select() {
 
         return ResponseDTO.success();
     }
@@ -57,8 +59,8 @@ public class PolicyController {
 
     @GetMapping(value = "/match")
     @ResponseBody
-    @ApiOperation(value = "select policy")
-    public ResponseDTO<Object> match() {
+    @ApiOperation(value = "match policy")
+    public ResponseDTO<InstructPolicyResult> match() {
 
         return ResponseDTO.success();
     }

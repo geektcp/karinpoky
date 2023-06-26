@@ -1,6 +1,8 @@
 package com.geektcp.karinpoky.controller.rdb;
 
 import com.geektcp.common.spring.model.dto.ResponseDTO;
+import com.geektcp.karinpoky.model.permission.InstructPermissionResult;
+import com.geektcp.karinpoky.model.permission.InstructPermissionSet;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
@@ -15,39 +17,39 @@ import org.springframework.web.bind.annotation.*;
 @Api(tags = {"relationship storage instruct"})
 public class RdbPermissionController {
 
-    @GetMapping(value = "/insert")
+    @PostMapping(value = "/insert")
     @ResponseBody
     @ApiOperation(value = "insert data")
-    public ResponseDTO<Object> insert() {
+    public ResponseDTO<InstructPermissionResult> insert(InstructPermissionSet instructPermissionSet) {
 
         return ResponseDTO.success();
     }
 
 
-    @GetMapping(value = "/delete")
+    @PostMapping(value = "/delete")
     @ResponseBody
     @ApiOperation(value = "delete data")
-    public ResponseDTO<Object> delete() {
+    public ResponseDTO<InstructPermissionResult> delete(InstructPermissionSet instructPermissionSet) {
 
         return ResponseDTO.success();
     }
 
 
 
-    @GetMapping(value = "/update")
+    @PostMapping(value = "/update")
     @ResponseBody
     @ApiOperation(value = "update data")
-    public ResponseDTO<Object> update() {
+    public ResponseDTO<InstructPermissionResult> update(InstructPermissionSet instructPermissionSet) {
 
         return ResponseDTO.success();
     }
 
 
 
-    @GetMapping(value = "/select")
+    @PostMapping(value = "/select")
     @ResponseBody
     @ApiOperation(value = "select data")
-    public ResponseDTO<Object> select() {
+    public ResponseDTO<InstructPermissionResult> select(InstructPermissionSet instructPermissionSet) {
 
         return ResponseDTO.success();
     }

@@ -1,12 +1,11 @@
 package com.geektcp.karinpoky.controller.rdb;
 
 import com.geektcp.common.spring.model.dto.ResponseDTO;
+import com.geektcp.karinpoky.model.analyse.InstructAnalyseResult;
+import com.geektcp.karinpoky.model.analyse.InstructAnalyseSet;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * @author geektcp on 2023/6/26 12:38.
@@ -17,38 +16,38 @@ import org.springframework.web.bind.annotation.RestController;
 @Api(tags = {"relationship storage instruct"})
 public class RdbAnalyseController {
 
-    @GetMapping(value = "/insert")
+    @PatchMapping(value = "/insert")
     @ResponseBody
     @ApiOperation(value = "insert data")
-    public ResponseDTO<Object> insert() {
+    public ResponseDTO<InstructAnalyseResult> insert(InstructAnalyseSet instructAnalyseSet) {
 
         return ResponseDTO.success();
     }
 
 
-    @GetMapping(value = "/delete")
+    @PatchMapping(value = "/delete")
     @ResponseBody
     @ApiOperation(value = "delete data")
-    public ResponseDTO<Object> delete() {
+    public ResponseDTO<InstructAnalyseResult> delete(InstructAnalyseSet instructAnalyseSet) {
 
         return ResponseDTO.success();
     }
 
 
-    @GetMapping(value = "/update")
+    @PatchMapping(value = "/update")
     @ResponseBody
     @ApiOperation(value = "update data")
-    public ResponseDTO<Object> update() {
+    public ResponseDTO<InstructAnalyseResult> update(InstructAnalyseSet instructAnalyseSet) {
 
         return ResponseDTO.success();
     }
 
 
 
-    @GetMapping(value = "/select")
+    @PatchMapping(value = "/select")
     @ResponseBody
     @ApiOperation(value = "select data")
-    public ResponseDTO<Object> select() {
+    public ResponseDTO<InstructAnalyseResult> select(InstructAnalyseSet instructAnalyseSet) {
 
         return ResponseDTO.success();
     }
